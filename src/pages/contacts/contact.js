@@ -1,9 +1,16 @@
 import React from "react";
 import Heading from "@/components/Headind";
+import Head from "next/head";
 
 const Contact = () => {
     return (
-        <Heading text={'Jack'}></Heading>
+        <>
+            <Head>
+                <title>Contact</title>
+            </Head>
+            <Heading text={"Jack"}></Heading>
+        </>
+
     );
 };
 
