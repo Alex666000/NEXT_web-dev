@@ -1,10 +1,11 @@
 import React from "react";
-import Heading from "@/components/Headind";
+import Navbar from "@/components/Navbar";
 
 const Header = () => {
     return (
         <header>
-            <Heading tag={'h3'} text={'Header is here!!!'}/>
+                {/*БЛОК НАВИГАЦИИ ЗАСУНЕМ В ХЕДЕР КАК И ВО ВСЕХ САЙТАХ..*/}
+            <Navbar/>
         </header>
     );
 };
